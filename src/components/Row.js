@@ -15,6 +15,7 @@ function Row({ title, fetchUrl, isLarge }) {
     }
     fetchData();
   }, [fetchUrl]);
+
   if (movies === null) {
     return "loading...";
   }
