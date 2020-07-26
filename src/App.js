@@ -5,8 +5,6 @@ import "./App.css";
 import Banner from "./components/Banner";
 import Nav from "./components/Nav";
 
-const API_KEY = process.env.REACT_APP_API_KEY;
-
 function App() {
   return (
     <div className="App">
